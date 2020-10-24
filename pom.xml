@@ -144,7 +144,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -157,7 +157,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -339,7 +339,7 @@
                               </includes> </filter> <filter> <artifact>org.opentripplanner:*</artifact>
                               <includes> <include>**</include> </includes> </filter> </filters> -->
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
                                         <Main-Class>org.opentripplanner.standalone.OTPMain</Main-Class>
@@ -492,7 +492,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+            <version>r03</version>
         </dependency>
         <!-- Trove provides optimized map/set collections for native types (int, long...) -->
         <dependency>
